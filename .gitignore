@@ -7,6 +7,10 @@
 !/src/*/Makefile
 !/src/*/README
 
+# Big Files
+*.ark
+*.wav
+
 # Compiled Object files and python ciles
 *.slo
 *.lo
@@ -97,6 +101,8 @@ GSYMS
 /tools/openfst-1.6.1/
 /tools/openfst-1.6.2.tar.gz
 /tools/openfst-1.6.2/
+/tools/openfst-1.6.5.tar.gz
+/tools/openfst-1.6.5/
 /tools/pa_stable_v19_20111121.tgz
 /tools/portaudio/
 /tools/sctk-2.4.0-20091110-0958.tar.bz2

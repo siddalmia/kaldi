@@ -6,9 +6,9 @@
 # the number of cpus on your machine.
 
 #a) JHU cluster options
-export train_cmd="queue.pl"
-export decode_cmd="queue.pl --mem 4G"
-export mkgraph_cmd="queue.pl --mem 8G"
+#export train_cmd="queue.pl"
+#export decode_cmd="queue.pl --mem 4G"
+#export mkgraph_cmd="queue.pl --mem 8G"
 
 
 #b) BUT cluster options
@@ -21,7 +21,8 @@ export mkgraph_cmd="queue.pl --mem 8G"
 #export mkgraph_cmd="queue.pl -q all.q@@servers -l ram_free=4G,mem_free=4G"
 
 #c) run it locally...
-#export train_cmd=run.pl
-#export decode_cmd=run.pl
-#export cuda_cmd=run.pl
-#export mkgraph_cmd=run.pl
+export train_cmd=run.pl
+export decode_cmd=run.pl
+export cuda_cmd=run.pl
+export mkgraph_cmd=run.pl
+
